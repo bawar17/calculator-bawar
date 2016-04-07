@@ -22,7 +22,7 @@ public class calculatorTest {
 		
 			@Test
 			public void Addition3() {
-				assertEquals("Unexepected error during addition!", 10.0, Calculator.add(5.0,5.0),0.0d);
+				assertEquals("Unexepected error during addition!", -10.0, Calculator.add(-5.0,-5.0),0.0d);
 			}
 			
 	// Test case subtraction
@@ -38,7 +38,7 @@ public class calculatorTest {
 			
 			@Test
 			public void subtraction3() {
-				assertEquals("Unexepected error during subtraction!", -2.0, Calculator.sub(3.0,5.0),0.0d);
+				assertEquals("Unexepected error during subtraction!", -8.0, Calculator.sub(-3.0,5.0),0.0d);
 			}
 				
 			
@@ -73,11 +73,6 @@ public class calculatorTest {
 				assertEquals("Unexepected error during division!", -5.0, Calculator.div(-5.0,1.0),0.0d);
 			}
 			
-			
-			
-			
-			
-		
 			
 			}	
 
